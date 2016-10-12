@@ -69,7 +69,7 @@ public final class Logs {
             adapter = new SimplePluginManager<LogAdapter>(
                     packageName + "CustomLogAdapter",
                     packageName + "Slf4jLogAdapter",
-                    packageName + "Log4jLogAdapter",
+                    packageName + "AndroidLogAdapter",
                     packageName + "SystemLogAdapter").get();
         }
         catch (Throwable e) {
